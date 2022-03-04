@@ -2,4 +2,4 @@ bokeh
 scikit-learn
 pandas 
 scipy
-tenserflow-cpu
+tensorflow-cpu

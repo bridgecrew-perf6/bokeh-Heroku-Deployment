@@ -1,5 +1,5 @@
 bokeh
-scikit - learn
+scikit-learn
 pandas 
 scipy
-tenserflow=cpu
+tenserflow-cpu

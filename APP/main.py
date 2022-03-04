@@ -2,6 +2,7 @@
 import json
 import pandas as pd
 import numpy as np
+import pathlib
 
 # visualization
 from bokeh.models.sources import ColumnDataSource, CDSView
@@ -46,7 +47,7 @@ def get_rank(data):
 #=============================
 
 # load data
-csvPath =  r".\data\unsupervised-clustering-data.csv"
+csvPath =  pathlib.Path("./data/unsupervised-clustering-data.csv"
 df = pd.read_csv(csvPath)
 
 #===============================================
